@@ -1,1 +1,5 @@
-**/*.jpg
+
+  
+# JPEG
+*.jpg
+*.jpeg
