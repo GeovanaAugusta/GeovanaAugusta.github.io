@@ -1,0 +1,44 @@
+h1 {
+    font-style: normal;
+    font-weight: bold;
+  }
+  body {
+    background-color: rgb(209, 183, 187);
+   
+  }
+  
+  .noções, .inglês, .facilidade, .proatividade {
+  font-weight: 530;
+    }
+  
+  
+    p {
+  font-style:inherit;
+      }
+
+#foto {
+    position: absolute;
+top:-px;
+}
+
+.eu {
+text-align: right;
+right: 100px;
+}
+
+h1 {
+    text-align:center;
+    border: 10px solid;
+    padding: -40px -40px 40px;
+}
+
+ #foto, #eu {
+    position: absolute;
+    float: left;
+    top: 180px;
+    border: 5px 10px solid;
+    padding: 1px;
+    left: 1px;
+    
+}
+
