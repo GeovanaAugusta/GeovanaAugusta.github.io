@@ -3,24 +3,23 @@ h1 {
     font-weight: bold;
     text-align: center;
   }
+
   body {
     background-color: rgb(209, 183, 187);
     padding: 3%;
-   
-  }
+     }
   
   .noções, .inglês, .facilidade, .proatividade {
   font-weight: 530;
     }
     
-    p {
-  font-style:inherit;
-      }
+  
 
 #foto {
   float:left;
   height: 255px;
   padding: 4px;
+  margin-right: 25px;
   background-color: black;
 }
 
@@ -33,18 +32,19 @@ height: 300px;
   top: 10px;
   left: 10px;
   text-align: justify;
+  margin-top: 60px;
 }
 
 #sobremim, #habilidade, #redesociais, #blog{
   background-color: white;
-  position: relative;
 }
 
 h2 {
   position: relative;
- 
-  bottom: 50px;
-  margin: auto;
-  width: 80%;
-  text-align: center;
+  bottom: 90px;
+    text-align: center;
+}
+
+h3 #habilidade {
+position: initial;
 }
