@@ -1,44 +1,50 @@
 h1 {
     font-style: normal;
     font-weight: bold;
+    text-align: center;
   }
   body {
     background-color: rgb(209, 183, 187);
+    padding: 3%;
    
   }
   
   .noções, .inglês, .facilidade, .proatividade {
   font-weight: 530;
     }
-  
-  
+    
     p {
   font-style:inherit;
       }
 
 #foto {
-    position: absolute;
-top:-px;
+  float:left;
+  height: 255px;
+  padding: 4px;
+  background-color: black;
+}
+
+#image-container{
+height: 300px;
 }
 
 .eu {
-text-align: right;
-right: 100px;
+  position:relative;
+  top: 10px;
+  left: 10px;
+  text-align: justify;
 }
 
-h1 {
-    text-align:center;
-    border: 10px solid;
-    padding: -40px -40px 40px;
+#sobremim, #habilidade, #redesociais, #blog{
+  background-color: white;
+  position: relative;
 }
 
- #foto, #eu {
-    position: absolute;
-    float: left;
-    top: 180px;
-    border: 5px 10px solid;
-    padding: 1px;
-    left: 1px;
-    
+h2 {
+  position: relative;
+ 
+  bottom: 50px;
+  margin: auto;
+  width: 80%;
+  text-align: center;
 }
-
