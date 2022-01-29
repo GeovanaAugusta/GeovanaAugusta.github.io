@@ -20,6 +20,7 @@ h1 {
   height: 255px;
   padding: 4px;
   margin-right: 25px;
+  margin-top: 20px;
   background-color: black;
 }
 
@@ -33,6 +34,7 @@ height: 300px;
   left: 10px;
   text-align: justify;
   margin-top: 60px;
+  bottom: 200px;
 }
 
 #sobremim, #habilidade, #redesociais, #blog{
@@ -47,4 +49,8 @@ h2 {
 
 h3 #habilidade {
 position: initial;
+}
+
+#sobremim {
+  top: 25px;
 }
