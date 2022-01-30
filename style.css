@@ -1,56 +1,78 @@
-h1 {
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-  }
+body {
+  background-color: rgb(224, 200, 204);
+margin-top: 5px;   
+  margin-left: 40px;
+}
 
-  body {
-    background-color: rgb(209, 183, 187);
-    padding: 3%;
-     }
-  
-  .noções, .inglês, .facilidade, .proatividade {
-  font-weight: 530;
+h4 {
+text-align: center;
+   }
+
+
+  .centralizar {
+          background-color: white;
+     margin-top:auto;
+     margin-right: 20px;   
+  }
+ 
+
+img {
+  border-radius: 60%;
+  border: 2px solid;
+      top: 40px;
+      margin-right: 40px;
+      margin-bottom: 40px;
     }
-    
-  
 
 #foto {
-  float:left;
-  height: 255px;
-  padding: 4px;
-  margin-right: 25px;
-  margin-top: 20px;
-  background-color: black;
-}
-
-#image-container{
-height: 300px;
-}
-
-.eu {
-  position:relative;
-  top: 10px;
-  left: 10px;
-  text-align: justify;
-  margin-top: 60px;
-  bottom: 200px;
-}
-
-#sobremim, #habilidade, #redesociais, #blog{
-  background-color: white;
-}
-
-h2 {
   position: relative;
-  bottom: 90px;
-    text-align: center;
+top: 60px;
+} 
+
+
+.espaçamento {
+margin-right: 40px;
+border: 4px solid black;
+color: black;
+font-style: normal;
+margin: 5px;
+text-decoration:none;
 }
 
-h3 #habilidade {
-position: initial;
+.espaçamento:hover, .trybe:hover, .linkedin:hover, .github:hover{
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+.trybe, .linkedin, .github {
+margin-right: 40px;
+color: black;
+font-style: normal;
+margin: 5px;
 }
 
 #sobremim {
-  top: 25px;
+  position: absolute;
+top: 110px;
+margin: 0;
+} 
+
+.texto {
+  position: absolute;
+  top: 185px;
+  left: 200px;
+  margin-left: 50px;
+  margin-right:30px;
+text-align: justify;
 }
+
+#habilidade, #blog, #redesociais {
+background-color: black;
+color: white;
+}
+
+ .centralizar {
+position: relative;
+ text-align: center;
+
